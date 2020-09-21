@@ -615,7 +615,14 @@
     <script src="assets/js/plugins/plugins.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-
+    <script>
+           var sidebar = new StickySidebar('.axil-scroll-nav', {
+            topSpacing: 0,
+            bottomSpacing: 0,
+            containerSelector: '.axil-scroll-navigation',
+            innerWrapperSelector: '.sidebar__inner'
+        });
+    </script>
    
   <!--
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
